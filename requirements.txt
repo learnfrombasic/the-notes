@@ -4,10 +4,3 @@ datasets
 evaluate
 accelerate
 
-# For visualizing
-wordcloud
-
-
-
-# For linting
-ruff

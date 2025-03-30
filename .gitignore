@@ -1,5 +1,7 @@
 trainer_output/
 wandb/
+common/notebook.ipynb
+test/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

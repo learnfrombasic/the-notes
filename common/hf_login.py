@@ -1,7 +1,7 @@
 import os
 from huggingface_hub import login
 from dotenv import load_dotenv
-from utils.logging_config import setup_logger
+from common.logging_config import setup_logger
 
 load_dotenv()
 logger = setup_logger(name="[TheNotes]")
