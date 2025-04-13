@@ -15,13 +15,20 @@ This repository serves as a personal collection of notes, insights, and summarie
 # Topics
 
 
+## Algorithms
+
+- [ ] [Kalman Filter](./algo/kalman-filter.ipynb)
+
+
 ## Computer Vision
 
+- [ ] Single Object Tracking. 
+- [ ] Multiple Object Tracking. 
 
 
 ## Natural Language Processing. 
 
-
+- Sentiment Analysis. 
 
 
 # Maintainer 

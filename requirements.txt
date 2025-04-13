@@ -1,6 +1,19 @@
 colorlog==6.9.0
+
+# Hugginface's ecosysystem
 transformers
 datasets
 evaluate
 accelerate
+diffusers
 
+
+# PyTorch
+torch==2.0.1
+torchvision==0.21.0
+torchaudio==2.0.2
+
+
+# Others
+gdown       # Download files from Google Drive
+pytubefix   # Download YouTube videos
