@@ -1,0 +1,3 @@
+[submodule "adk-samples"]
+	path = adk-samples
+	url = git@github.com:google/adk-samples.git
