@@ -1,3 +1,4 @@
+data
 trainer_output/
 wandb/
 common/notebook.ipynb
