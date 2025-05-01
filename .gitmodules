@@ -1,3 +1,6 @@
 [submodule "adk-samples"]
 	path = adk-samples
 	url = git@github.com:google/adk-samples.git
+[submodule "Deep-OC-SORT"]
+	path = Deep-OC-SORT
+	url = https://github.com/GerardMaggiolino/Deep-OC-SORT.git

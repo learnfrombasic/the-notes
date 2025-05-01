@@ -18,7 +18,7 @@ This repository serves as a personal collection of notes, insights, and summarie
 ## Algorithms
 
 - [ ] [Kalman Filter](./algo/kalman-filter.ipynb)
-
+- [ ] [Linear Assignment]()
 
 ## Computer Vision
 
