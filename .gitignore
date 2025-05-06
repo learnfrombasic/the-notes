@@ -1,4 +1,6 @@
-data
+dataset/storage
+dataset/zip
+
 trainer_output/
 wandb/
 common/notebook.ipynb
