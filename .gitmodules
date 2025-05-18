@@ -4,3 +4,6 @@
 [submodule "Deep-OC-SORT"]
 	path = Deep-OC-SORT
 	url = https://github.com/GerardMaggiolino/Deep-OC-SORT.git
+[submodule "kafka-learning"]
+	path = kafka-learning
+	url = git@github.com:MinLee0210/kafka-learning.git
