@@ -7,3 +7,9 @@
 [submodule "kafka-learning"]
 	path = kafka-learning
 	url = git@github.com:MinLee0210/kafka-learning.git
+[submodule "others/bert_base_vn_deploy"]
+	path = others/bert_base_vn_deploy
+	url = https://github.com/vuongquocphong/bert_base_vn_deploy.git
+[submodule "leetcode-with-rust"]
+	path = leetcode-with-rust
+	url = git@github.com:learnfrombasic/leetcode-with-rust.git
