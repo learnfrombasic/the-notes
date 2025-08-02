@@ -13,3 +13,6 @@
 [submodule "leetcode-with-rust"]
 	path = leetcode-with-rust
 	url = git@github.com:learnfrombasic/leetcode-with-rust.git
+[submodule "data_enrichment"]
+	path = data_enrichment
+	url = git@github.com:MinLee0210/data_enrichment.git
