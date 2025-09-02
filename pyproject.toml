@@ -7,11 +7,16 @@ requires-python = ">=3.12"
 dependencies = [
     "accelerate>=1.8.1",
     "datasets>=3.6.0",
+    "docling>=2.47.1",
     "evaluate>=0.4.4",
     "httpx>=0.28.1",
     "ipykernel>=6.29.5",
     "matplotlib>=3.10.3",
     "polars>=1.31.0",
     "python-dotenv>=1.1.1",
+    "pyvi>=0.1.1",
+    "ruff>=0.12.10",
+    "sentence-transformers>=5.1.0",
+    "tiktoken>=0.11.0",
     "transformers>=4.53.1",
 ]
