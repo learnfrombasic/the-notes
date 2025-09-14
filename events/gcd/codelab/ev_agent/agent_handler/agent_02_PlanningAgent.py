@@ -120,7 +120,7 @@ class PlanningAgent(BaseModel):
                     is_valid=False,
                     missing_elements=["city"],
                     suggestions=f"""Please specify one or more valid cities. Available cities are:
-                  {', '.join(STATE_MAPPING.keys())}.
+                  {", ".join(STATE_MAPPING.keys())}.
                   
                   Example queries:
                   1. "Analyze EV charging infrastructure in Austin"
@@ -134,9 +134,9 @@ class PlanningAgent(BaseModel):
                     cities=valid_cities,
                     is_valid=False,
                     missing_elements=["valid city"],
-                    suggestions=f"""Invalid cities mentioned: {', '.join(invalid_cities)}
+                    suggestions=f"""Invalid cities mentioned: {", ".join(invalid_cities)}
                   
-                  Please use cities from this list: {', '.join(STATE_MAPPING.keys())}
+                  Please use cities from this list: {", ".join(STATE_MAPPING.keys())}
                   
                   Try these instead:
                   1. Replace {invalid_cities[0]} with {list(STATE_MAPPING.keys())[0]}
@@ -171,7 +171,7 @@ class PlanningAgent(BaseModel):
               2. "Compare charging stations in Dallas and Houston"
               3. "Show EV charging coverage in San Francisco"
               
-              Available cities: {', '.join(STATE_MAPPING.keys())}
+              Available cities: {", ".join(STATE_MAPPING.keys())}
               """,
             )
 

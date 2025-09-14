@@ -914,11 +914,13 @@ class RawDataProcessor:
         ) = map(float, bbox)
 
         # Calculate raw areas
-        lat1, lat2 = math.radians(metrics.bounds_south), math.radians(
-            metrics.bounds_north
+        lat1, lat2 = (
+            math.radians(metrics.bounds_south),
+            math.radians(metrics.bounds_north),
         )
-        lon1, lon2 = math.radians(metrics.bounds_west), math.radians(
-            metrics.bounds_east
+        lon1, lon2 = (
+            math.radians(metrics.bounds_west),
+            math.radians(metrics.bounds_east),
         )
 
         # Simple area calculation

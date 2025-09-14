@@ -105,7 +105,6 @@ class ReportAgent:
     async def _generate_section(
         self, section_name: str, city_data, agent_1_result
     ) -> Optional[Section]:
-
         if self.debug:
             self.log_info(f"Generating {section_name}...")
 
@@ -467,7 +466,6 @@ class ReportAgent:
     async def analyze(
         self, agent_1_result: dict, data_output
     ) -> Union[Report, List[Report]]:
-
         if self.debug:
             self.log_process("Starting analysis...")
 

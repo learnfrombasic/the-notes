@@ -135,7 +135,8 @@ class DataGatherAgent:
 
             # Wait for both tasks to complete with timeout
             summary, ev_data = await asyncio.wait_for(
-                asyncio.gather(summary_task, ev_task), timeout=300  # 5 minute timeout
+                asyncio.gather(summary_task, ev_task),
+                timeout=300,  # 5 minute timeout
             )
 
             if self.debug:
