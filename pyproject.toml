@@ -35,4 +35,7 @@ dependencies = [
     "langchain-ollama>=0.3.8",
     "langchain-cohere>=0.4.6",
     "operators>=1.0.1",
+    "ollama>=0.5.3",
+    "instructor>=1.11.3",
+    "torch>=2.9.0",
 ]
