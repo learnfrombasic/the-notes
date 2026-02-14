@@ -16,3 +16,6 @@
 [submodule "data_enrichment"]
 	path = data_enrichment
 	url = git@github.com:MinLee0210/data_enrichment.git
+[submodule "audio_learning"]
+	path = audio_learning
+	url = git@github.com:learnfrombasic/audio_learning.git
